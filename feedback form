@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Student Feedback form</title>
+</head>
+<h2> Feedback form </h2>
+<body>
+    <form>
+        <fieldset>
+            <legend>Student info:</legend>
+            <label for="sname">Student name:</label>
+            <input type="text" id="sname" name="sname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="enroll">Enrollment NO:</label>
+            <input type="text" id="enroll" name="enroll"><br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+          </fieldset>
+    </form>
+ 
+
+<select>
+<option value="Division">Select DIV....</option>
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+</select>
+
+
+<form>
+(Topic difficulty) HTML form action and methord attributes:<br>
+<input type="checkbox" id="Easy" value="Easy"/>
+<label for="Easy">Easy</label> <br> 
+<input type="checkbox" id="Medium" value="Medium"/>
+<label for="Medium">Medium</label> <br>
+<input type="checkbox" id="Difficult" value="Difficult"/>
+<label for="Difficult">Difficult</label><br>
+(Topic difficulty) HTML form tags:<br>
+<input type="checkbox" id="Easy" value="Easy"/>
+<label for="Easy">Easy</label> <br> 
+<input type="checkbox" id="Medium" value="Medium"/>
+<label for="Medium">Medium</label> <br>
+<input type="checkbox" id="Difficult" value="Difficult"/>
+<label for="Difficult">Difficult</label><br>
+(Topic difficulty) HTML input element:<br>
+<input type="checkbox" id="Easy" value="Easy"/>
+<label for="Easy">Easy</label> <br> 
+<input type="checkbox" id="Medium" value="Medium"/>
+<label for="Medium">Medium</label> <br>
+<input type="checkbox" id="Difficult" value="Difficult"/>
+<label for="Difficult">Difficult</label><br> 
+(Topic difficulty) HTML field control:<br>
+<input type="checkbox" id="Easy" value="Easy"/>
+<label for="Easy">Easy</label> <br> 
+<input type="checkbox" id="Medium" value="Medium"/>
+<label for="Medium">Medium</label> <br>
+<input type="checkbox" id="Difficult" value="Difficult"/>
+<label for="Difficult">Difficult</label><br> 
+(Topic difficulty) HTML list box/ combo box:<br>
+<input type="checkbox" id="Easy" value="Easy"/>
+<label for="Easy">Easy</label> <br> 
+<input type="checkbox" id="Medium" value="Medium"/>
+<label for="Medium">Medium</label> <br>
+<input type="checkbox" id="Difficult" value="Difficult"/>
+<label for="Difficult">Difficult</label><br> 
+<label for="browser">Choose topic you feel most interesting:</label>
+<input list="topic" name="topic" id="topic">
+<datalist id="topic">
+  <option value="HTML form action and methord attributes">
+  <option value="HTML form tags">
+  <option value="HTML input element">
+  <option value="HTML field control">
+  <option value="HTML list box/ combo box">
+</datalist><br>
+<form>
+    <label for="topic">Choose a topic for revision:</label>
+    <select name="topic" id="topic">
+      <optgroup label="Form Tags">
+        <option value="fieldset">Fieldset</option>
+        <option value="optgroup">optgroup</option>
+      </optgroup>
+      <optgroup label="input element">
+        <option value="radio">Radio</option>
+        <option value="checkbox">checkbox</option>
+      </optgroup>
+    </select>
+    <br><br>
+  </form>
+
+ <label for="Submit"></label> 
+ <input type="submit" id="submit" name="submit"/><br/>  
+</form>
+</body>
+</html>
